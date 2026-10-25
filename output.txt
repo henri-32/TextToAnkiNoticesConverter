@@ -1,0 +1,38 @@
+test.txt
+{
+    "deck": {
+        "name": "Henri könnte ein richtiger Programmierer werden"
+    },
+    "fields": {
+        "Back": "",
+        "Front": "Q: hat es geklappt?"
+    },
+    "noteType": {
+        "name": "Basic"
+    }
+}
+{
+    "deck": {
+        "name": "Henri könnte ein richtiger Programmierer werden"
+    },
+    "fields": {
+        "Back": "A: ich hoffe",
+        "Front": "Q: Klappt es auch mit mehreren Zeilen?"
+    },
+    "noteType": {
+        "name": "Basic"
+    }
+}
+WARN size of string pairs 2
+WARN size of jsonpairs 2
+COMPLETE REQUEST{"id":1,"jsonrpc":"2.0","method":"notes.createMany","params":{"atomic":true,"notes":[{"deck":{"name":"Henri könnte ein richtiger Programmierer werden"},"fields":{"Back":"A: ich hoffe","Front":"Q: hat es geklappt?"},"noteType":{"name":"Basic"}},{"deck":{"name":"Henri könnte ein richtiger Programmierer werden"},"fields":{"Back":"A: das wollen wir doch hoffen","Front":"Q: Klappt es auch mit mehreren Zeilen?"},"noteType":{"name":"Basic"}}]}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: http://localhost
+Vary: Origin
+Access-Control-Allow-Headers: Content-Type, Authorization, *
+Access-Control-Allow-Methods: POST, OPTIONS
+Connection: close
+Content-Length: 216
+
+{"jsonrpc": "2.0", "id": 1, "result": {"items": [{"index": 0, "result": {"noteId": "1792936056969", "cardIds": ["1792936056969"]}}, {"index": 1, "result": {"noteId": "1792936056970", "cardIds": ["1792936056970"]}}]}}
