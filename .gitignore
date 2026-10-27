@@ -2,3 +2,4 @@ third_party/*
 anki_converter 
 anki_converter_debug
 output.txt
+build/*
