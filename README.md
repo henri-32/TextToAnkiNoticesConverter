@@ -2,7 +2,9 @@
 
 A minimalistic parser that converts `.md` or `.txt` files into Anki notes.
 
-It is not intended to manage the Anki database. Its sole purpose is to eliminate the repetitive keystrokes required to create individual notes in Anki, allowing you to maintain your Neovim workflow and work entirely from the keyboard.
+It is not intended to manage the Anki database. Its sole purpose is to eliminate
+the repetitive keystrokes required to create individual notes in Anki, allowing
+me to maintain my Neovim workflow and work entirely from the keyboard.
 
 # Setup
 
